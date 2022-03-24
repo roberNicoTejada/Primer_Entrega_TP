@@ -1,0 +1,14 @@
+/**$*$********************************************************************
+*$*$                         SECCION NOSOTROS                            *
+*$*$**********************************************************************/
+#colFounder:hover {
+    transform: scale(1.03, 1.03);
+}
+
+#colResenaFounder {
+    background: #e6e4e4;
+}
+
+.empleado:hover {
+    transform: scale(1.03, 1.03);
+}

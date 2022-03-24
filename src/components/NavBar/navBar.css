@@ -1,0 +1,53 @@
+/**$*$********************************************************************
+*$*$                         MENU                                        *
+*$*$**********************************************************************/
+header {
+  background-color: #11c59c;
+}
+
+/**$*$*****************************************************************
+*$*$                         CART WIDGET                              *
+*$*$*******************************************************************/
+.cart:hover {
+  color: #70f7e0 !important;
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+/**$*$*****************************************************************
+*$*$                         LOGO                                     *
+*$*$*******************************************************************/
+.logo {
+  width: 30%;
+  height: auto;
+  /* background-color: blue; */
+}
+
+.logo__img--center {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+/**$*$********************************************************************
+*$*$             BARRA NAVEGACION                                        *
+*$*$*********************************************************************/
+.menuSecciones {
+  letter-spacing: 2px;
+  color: white !important;
+}
+
+.menuSecciones:hover {
+  color: #70f7e0 !important;
+  transform: scale(1.1, 1.1);
+}
+
+/**$*$********************************************************************
+*$*$                         CUSTOM ICON HAMBURGUESA                     *
+*$*$**********************************************************************/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 240, 229, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f0f0e5;
+}

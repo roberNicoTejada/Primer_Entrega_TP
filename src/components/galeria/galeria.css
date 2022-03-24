@@ -1,0 +1,52 @@
+/**$*$********************************************************************
+*$*$                         SECCION GALERIA                             *
+*$*$**********************************************************************/
+/*Ancho y alto*/
+.mainGaleria {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    gap: 28px;
+    margin: 20px 0px;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.box a {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box a img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box a:hover .overlay {
+    display: inline;
+}
+
+.box:hover {
+    transform: scale(1.03, 1.03);
+}
